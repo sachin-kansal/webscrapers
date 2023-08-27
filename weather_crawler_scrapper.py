@@ -57,3 +57,4 @@ for i in link_list: #iterate over list to get data of each month
     u_data=pd.concat([u_data,data],axis=0) # data of each month updated/stored in final on dataframe 
 del data, i, date, link_list
 u_data=u_data.set_index(19)
+u_data
